@@ -1,0 +1,27 @@
+# Yupi Indústria de Alimentos
+
+> Fábrica especializada em salgados assados de alta qualidade. O sabor que vai conquistar seus clientes!
+
+## Sobre Nós
+A Yupi Indústria de Alimentos é uma fábrica com tradição na produção de salgados assados artesanais, focada no fornecimento para atacado, lanchonetes e padarias. Utilizamos ingredientes selecionados e muito carinho em nossa produção.
+
+## Produtos
+Oferecemos uma grande variedade de salgados assados e fresquinhos, incluindo:
+- Empadas (Abacaxi com Provolone, Alho Poró, Carne Seca, Frango, etc.)
+- Enrolados (Queijo e Presunto, Salsicha Especial)
+- Esfirras (Carne, Frango, Frango com Bacon)
+- Pastéis Assados
+- Tortinhas
+- Opções Vegetarianas
+
+## Diferenciais
+- Qualidade Garantida
+- Ingredientes Selecionados
+- Entrega Rápida
+
+## Contato e Localização
+- Endereço: Av. Henfil, 121 - Serrano, Belo Horizonte - MG, 30882-710
+- Telefone / WhatsApp: (00) 00000-0000
+- E-mail: contato@yupi.com.br
+- Site Oficial: https://www.yupi.com.br/
+- Instagram: https://www.instagram.com/yupindustria/

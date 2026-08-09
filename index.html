@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yupi Indústria de Alimentos | Fábrica de Salgados Assados</title>
+    <meta name="description"
+        content="A Yupi é uma fábrica especializada em salgados assados de alta qualidade para lanchonetes, padarias e revenda. Experimente nossas empadas, esfihas e tortinhas!">
+    <meta name="keywords"
+        content="salgados assados, fábrica de salgados, atacado de salgados, salgados para lanchonete, empada, esfiha, pastel assado, salgados para revenda, salgados BH, Yupi Indústria de Alimentos">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Yupi Indústria de Alimentos">
+    <meta name="google-site-verification" content="COLOQUE_SEU_CODIGO_DO_SEARCH_CONSOLE_AQUI">
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.yupi.com.br/">
+    <meta property="og:title" content="Yupi Indústria de Alimentos | Salgados Assados para o seu Negócio">
+    <meta property="og:description"
+        content="Fábrica especializada em salgados assados de alta qualidade para atacado e lanchonetes. O sabor que vai conquistar seus clientes.">
+    <meta property="og:image" content="https://www.yupi.com.br/images/hero-bg.jpg">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://www.yupi.com.br/">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">
+                <i class="fa-solid fa-rocket" style="color: var(--primary-color);"></i>
+                <div class="logo-text"
+                    style="display: flex; flex-direction: column; align-items: center; color: #FFFFFF;">
+                    <span class="logo-subtitle"
+                        style="font-size: 1.8rem; letter-spacing: 1px; text-transform: uppercase; line-height: 1;">YUPI</span>
+                    <span
+                        style="font-size: 0.75rem; font-weight: 400; opacity: 0.9; letter-spacing: 0.5px; border-top: 1px solid rgba(255,255,255,0.3); padding-top: 2px; margin-top: 2px;">Indústria
+                        de Alimentos</span>
+                </div>
+            </div>
+
+            <!-- Mobile Menu Toggle -->
+            <button class="mobile-menu-btn" id="mobile-menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <nav class="nav" id="main-nav">
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">Início</a></li>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#clientes">Parceiros</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+                <div class="header-actions">
+                    <a href="#contato" class="btn btn-primary">Fale Conosco</a>
+                    <a href="#produtos" class="btn btn-secondary">Nosso Cardápio</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content" style="align-items: center; justify-content: center; text-align: center;">
+            <h1 class="hero-title"
+                style="text-shadow: 2px 4px 10px rgba(0,0,0,0.9), 0 0 30px rgba(0,0,0,0.7); font-size: 3.5rem; line-height: 1.1; margin-bottom: 30px;">
+                Os Melhores<br>Salgados Assados para<br>o seu Negócio</h1>
+            <a href="#contato" class="btn btn-primary btn-large"
+                style="box-shadow: 0 5px 20px rgba(0,0,0,0.5); font-weight: bold;">Solicitar Orçamento Agora</a>
+        </div>
+    </section>
+
+    <!-- Divider SVG (Wave/Curve) -->
+    <div class="section-divider">
+        <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path
+                d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V0C75.25,48.11,192.51,80.41,321.39,56.44Z"
+                class="shape-fill"></path>
+        </svg>
+    </div>
+
+    <!-- Products Section -->
+    <section id="produtos" class="section products-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="decoration left"></span>
+                    Nosso Cardápio
+                    <span class="decoration right"></span>
+                </h2>
+            </div>
+
+            <div class="products-grid">
+                <!-- Empadas -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/Empada Abacaxi com Provolone.jpeg" alt="Empada Abacaxi com Provolone"
+                            loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Empada Abacaxi com Provolone</h3>
+                        <p class="product-desc">O equilíbrio perfeito entre o doce do abacaxi e o toque marcante do
+                            provolone.</p>
+                        <button class="btn btn-green">Ver Detalhes</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/Empada Alho Poró.jpeg" alt="Empada Alho Poró" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Empada Alho Poró</h3>
+                        <p class="product-desc">Sabor sofisticado com recheio cremoso que derrete na boca a cada
+                            mordida.</p>
+                        <button class="btn btn-green">Ver Detalhes</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/Empada Carne Seca com Requeijão.jpeg" alt="Empada Carne Seca com Requeijão"
+                            loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Empada Carne Seca com Requeijão</h3>
+                        <p class="product-desc">Um clássico brasileiro irresistível, bem recheado e com tempero no
+                            ponto.</p>
+                        <button class="btn btn-green">Ver Detalhes</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/Empada Frango com Azeitona.jpeg" alt="Empada Frango com Azeitona"
+                            loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Empada Frango com Azeitona</h3>
+                        <p class="product-desc">A receita tradicional com massa que desmancha, trazendo sabor de
+                            nostalgia.</p>
+                        <button class="btn btn-green">Ver Detalhes</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/Empada Frango com Bacon.jpeg" alt="Empada Frango com Bacon" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Empada Frango com Bacon</h3>
+                        <p class="product-desc">Crocância e sabor defumado que elevam o tradicional frango a outro
+                            nível.</p>
+                        <button class="btn btn-green">Ver Detalhes</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/Empada Frango com Requeijão.jpeg" alt="Empada Frango com Requeijão"
+                            loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Empada Frango com Requeijão</h3>
+                        <p class="product-desc">Super cremosa, com aquele toque caseiro de tempero que todo mundo ama.
+                        </p>
+                        <button class="btn btn-green">Ver Detalhes</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/Empada Milho com Requeijão.jpeg" alt="Empada Milho com Requeijão"
+                            loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Empada Milho com Requeijão</h3>
+                        <p class="product-desc">Textura macia, recheios maravilhosos, sabor marcante.</p>
+                        <button class="btn btn-green">Ver Detalhes</button>
+                    </div>
+                </div>
+
+                <!-- Enrolados -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/Enrolado Queijo e Presunto.jpeg" alt="Enrolado Queijo e Presunto"
+                            loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Enrolado Queijo e Presunto</h3>
+                        <p class="product-desc">A combinação infalível abraçada por uma massa leve, dourada e macia.</p>
+                        <button class="btn btn-green">Ver Detalhes</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/Enrolado Salsicha Especial.jpeg" alt="Enrolado Salsicha Especial"
+                            loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Enrolado Salsicha Especial</h3>
+                        <p class="product-desc">O lanche favorito, com salsicha de primeira linha e textura
+                            surpreendente.</p>
+                        <button class="btn btn-green">Ver Detalhes</button>
+                    </div>
+                </div>
+
+                <!-- Esfirras -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/Esfirra Carne Tradicional.jpeg" alt="Esfirra Carne Tradicional" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Esfirra Carne Tradicional</h3>
+                        <p class="product-desc">Recheio suculento, tempero árabe clássico e massa super fofinha assada
+                            na hora.</p>
+                        <button class="btn btn-green">Ver Detalhes</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/Esfirra Frango Tradicional.jpeg" alt="Esfirra Frango Tradicional"
+                            loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Esfirra Frango Tradicional</h3>
+                        <p class="product-desc">Delicada, com recheio de frango desfiado bem temperadinho e aroma
+                            inconfundível.</p>
+                        <button class="btn btn-green">Ver Detalhes</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/Esfirra Frango com Bacon.jpeg" alt="Esfirra Frango com Bacon" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Esfirra Frango com Bacon</h3>
+                        <p class="product-desc">Para quem gosta de um sabor extra e marcante acompanhado de massa leve.
+                        </p>
+                        <button class="btn btn-green">Ver Detalhes</button>
+                    </div>
+                </div>
+
+                <!-- Pasteis -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/Pastel Frango Tradicional.jpeg" alt="Pastel Frango Tradicional" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Pastel Frango Tradicional</h3>
+                        <p class="product-desc">Assado com perfeição, guardando um recheio úmido e muito saboroso.</p>
+                        <button class="btn btn-green">Ver Detalhes</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/Pastel Frango com Requeijão.jpeg" alt="Pastel Frango com Requeijão"
+                            loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Pastel Frango com Requeijão</h3>
+                        <p class="product-desc">A cremosidade ideal do requeijão envolta em uma massa leve e douradinha.
+                        </p>
+                        <button class="btn btn-green">Ver Detalhes</button>
+                    </div>
+                </div>
+
+                <!-- Tortinha -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/Tortinha Frango com Bacon.jpeg" alt="Tortinha Frango com Bacon" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Tortinha Frango com Bacon</h3>
+                        <p class="product-desc">Formato especial com massa quebradiça e recheio generoso de dar água na
+                            boca.</p>
+                        <button class="btn btn-green">Ver Detalhes</button>
+                    </div>
+                </div>
+
+                <!-- Outros -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/Vegetariano.jpeg" alt="Vegetariano" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Vegetariano</h3>
+                        <p class="product-desc">Sabor natural e ingredientes frescos para uma opção leve e muito
+                            saudável.</p>
+                        <button class="btn btn-green">Ver Detalhes</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/X-Yupi.jpeg" alt="X-Yupi" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">X-Yupi</h3>
+                        <p class="product-desc">Nossa grande estrela! Uma explosão de sabores exclusivos que você
+                            precisa provar.</p>
+                        <button class="btn btn-green">Ver Detalhes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="section benefits-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="decoration left"></span>
+                    Por que nos escolher?
+                    <span class="decoration right"></span>
+                </h2>
+            </div>
+
+            <div class="benefits-grid">
+                <div class="benefit-item">
+                    <div class="benefit-icon">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </div>
+                    <h3 class="benefit-title">Produção Artesanal</h3>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">
+                        <i class="fa-solid fa-truck-fast"></i>
+                    </div>
+                    <h3 class="benefit-title">Entrega Rápida</h3>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">
+                        <i class="fa-solid fa-seedling"></i>
+                    </div>
+                    <h3 class="benefit-title">Ingredientes Selecionados</h3>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">
+                        <i class="fa-solid fa-award"></i>
+                    </div>
+                    <h3 class="benefit-title">Qualidade Garantida</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="clientes" class="section testimonials-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="decoration left"></span>
+                    Quem já experimentou
+                    <span class="decoration right"></span>
+                </h2>
+            </div>
+
+            <div class="testimonials-grid">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <img src="images/Renato Marcos.png" alt="Renato Marcos" class="testimonial-avatar"
+                            loading="lazy">
+                    </div>
+                    <div class="testimonial-content">
+                        <i class="fa-solid fa-quote-left quote-icon"></i>
+                        <p class="testimonial-text">Salgados saborosos e atendimento de primeira.</p>
+                        <h4 class="testimonial-author">Renato Marcos</h4>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <img src="images/Aniele.png" alt="Aniele" class="testimonial-avatar" loading="lazy">
+                    </div>
+                    <div class="testimonial-content">
+                        <i class="fa-solid fa-quote-left quote-icon"></i>
+                        <p class="testimonial-text">Minha experiência com a Yupi é sempre excelente! Atendimento
+                            impecável e produtos incríveis, deliciosos… obrigada equipe Yupi por tanta dedicação e
+                            atenção com a satisfação dos clientes!</p>
+                        <h4 class="testimonial-author">Aniele</h4>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <img src="images/Michela Maulaz.png" alt="Michela Maulaz" class="testimonial-avatar"
+                            loading="lazy">
+                    </div>
+                    <div class="testimonial-content">
+                        <i class="fa-solid fa-quote-left quote-icon"></i>
+                        <p class="testimonial-text">Super recomendo os salgados, surreal! A massa é bem leve, bem
+                            suculento os recheios. Perfeito!</p>
+                        <h4 class="testimonial-author">Michela Maulaz</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How it Works Section -->
+    <section class="section how-it-works-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="decoration left"></span>
+                    Faça seu pedido
+                    <span class="decoration right"></span>
+                </h2>
+            </div>
+
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Escolha seus produtos</h3>
+                        <p class="step-desc">Selecione no nosso cardápio</p>
+                    </div>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Faça um Orçamento</h3>
+                        <p class="step-desc">Fale com nossa equipe</p>
+                    </div>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Receba sua Entrega</h3>
+                        <p class="step-desc">Tudo fresquinho para você</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="section about-contact-section">
+        <div class="container about-contact-container">
+            <div class="about-content" style="text-align: left;">
+                <h2 class="about-title" style="justify-content: flex-start;">Nossa História</h2>
+                <p class="about-desc">Tradição e amor em cada receita, levando o melhor sabor para o seu negócio e
+                    encrustando alegria em cada mordida.</p>
+
+                <div id="contato" class="contact-form-wrapper">
+                    <h3 class="form-title">Peça seu Orçamento</h3>
+                    <form class="contact-form"
+                        onsubmit="event.preventDefault(); alert('Mensagem enviada com sucesso!');">
+                        <input type="text" placeholder="Nome / Empresa" required class="form-input">
+                        <input type="tel" placeholder="Telefone / WhatsApp" required class="form-input">
+                        <input type="email" placeholder="E-mail" required class="form-input">
+                        <textarea placeholder="Mensagem" rows="4" required class="form-input"></textarea>
+                        <button type="submit" class="btn btn-primary btn-block">Enviar</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="about-decoration"
+                style="position: relative; display: flex; justify-content: center; align-items: center; min-height: 400px;">
+                <div class="deco-circle"
+                    style="width: 320px; height: 320px; border-radius: 50%; border: 2px dashed var(--primary-color); opacity: 0.3; position: absolute;">
+                </div>
+                <div class="deco-image"
+                    style="width: 260px; height: 360px; background-color: var(--dark-green); border-radius: 130px 130px 20px 20px; overflow: hidden; position: relative; z-index: 2; box-shadow: 0 15px 35px rgba(0,0,0,0.1);">
+                    <img src="images/bg-how-it-works.png" alt="Produção Yupi"
+                        style="width: 100%; height: 100%; object-fit: cover; opacity: 0.85;">
+                </div>
+                <div class="deco-dots"
+                    style="position: absolute; bottom: 20px; right: 40px; font-size: 2.5rem; color: var(--primary-color); opacity: 0.4; line-height: 0.6; z-index: 3;">
+                    <i class="fa-solid fa-ellipsis"></i><br>
+                    <i class="fa-solid fa-ellipsis"></i><br>
+                    <i class="fa-solid fa-ellipsis"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-social">
+                <a href="https://www.instagram.com/yupindustria/" target="_blank" rel="noopener noreferrer"
+                    class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+
+            <div class="footer-info">
+                <div class="footer-info-item">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Av. Henfil, 121 - Serrano, Belo Horizonte - MG, 30882-710</span>
+                </div>
+                <div class="footer-info-item">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>Telefone / WhatsApp: (00) 00000-0000</span>
+                </div>
+                <div class="footer-info-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>E-mail: contato@yupi.com.br</span>
+                </div>
+            </div>
+
+            <div class="footer-copyright">
+                <p>&copy; 2026 Yupi Indústria de Alimentos. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botão WhatsApp Flutuante -->
+    <a href="https://wa.me/5500000000000" target="_blank" rel="noopener noreferrer" class="whatsapp-float">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (mobileMenuBtn && mainNav) {
         mobileMenuBtn.addEventListener('click', () => {
             mainNav.classList.toggle('active');
-            
+
             // Toggle icon between bars and times
             const icon = mobileMenuBtn.querySelector('i');
             if (mainNav.classList.contains('active')) {
@@ -38,11 +38,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     window.addEventListener('scroll', () => {
         let current = '';
-        
+
         sections.forEach(section => {
             const sectionTop = section.offsetTop;
             const sectionHeight = section.clientHeight;
-            
+
             if (pageYOffset >= (sectionTop - headerOffset - 50)) {
                 current = section.getAttribute('id');
             }

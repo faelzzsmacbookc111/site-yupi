@@ -55,4 +55,21 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     });
+
+    // Products Carousel
+    const carousel = document.getElementById('productsCarousel');
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+
+    if (carousel && prevBtn && nextBtn) {
+        const scrollAmount = 300; // Amount to scroll per click
+
+        prevBtn.addEventListener('click', () => {
+            carousel.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+        });
+
+        nextBtn.addEventListener('click', () => {
+            carousel.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+        });
+    }
 });

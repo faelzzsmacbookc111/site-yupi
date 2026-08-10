@@ -612,6 +612,7 @@ ul {
     padding: 30px;
     border-radius: var(--border-radius-lg);
     box-shadow: var(--shadow-md);
+    scroll-margin-top: 100px; /* Offset for sticky header */
 }
 
 .form-title {

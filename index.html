@@ -31,6 +31,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts for Hero Title -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Bebas+Neue&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -38,14 +40,13 @@
     <header class="header">
         <div class="container header-container">
             <div class="logo">
-                <i class="fa-solid fa-rocket" style="color: var(--primary-color);"></i>
+                <img src="images/Logo Yupi.png" alt="Logo Yupi" style="height: 3.5rem; width: auto; object-fit: contain;">
                 <div class="logo-text"
-                    style="display: flex; flex-direction: column; align-items: center; color: #FFFFFF;">
+                    style="display: flex; flex-direction: column; align-items: flex-start; color: #FFFFFF;">
                     <span class="logo-subtitle"
-                        style="font-size: 1.8rem; letter-spacing: 1px; text-transform: uppercase; line-height: 1;">YUPI</span>
+                        style="font-size: 1.8rem; font-weight: 800; letter-spacing: 1px; text-transform: uppercase; line-height: 1;">YUPI</span>
                     <span
-                        style="font-size: 0.75rem; font-weight: 400; opacity: 0.9; letter-spacing: 0.5px; border-top: 1px solid rgba(255,255,255,0.3); padding-top: 2px; margin-top: 2px;">Indústria
-                        de Alimentos</span>
+                        style="font-size: 0.75rem; font-weight: 600; letter-spacing: 0.5px; margin-top: 2px;">Indústria de Alimentos</span>
                 </div>
             </div>
 
@@ -72,12 +73,15 @@
     <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-overlay"></div>
-        <div class="container hero-content" style="align-items: center; justify-content: center; text-align: center;">
+        <div class="container hero-content" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 2rem; text-align: center;">
             <h1 class="hero-title"
-                style="text-shadow: 2px 4px 10px rgba(0,0,0,0.9), 0 0 30px rgba(0,0,0,0.7); font-size: 3.5rem; line-height: 1.1; margin-bottom: 30px;">
-                Os Melhores<br>Salgados Assados para<br>a sua Lanchonete!</h1>
+                style="font-family: 'Bebas Neue', sans-serif; text-shadow: 2px 4px 10px rgba(0,0,0,0.9), 0 0 30px rgba(0,0,0,0.7); font-size: clamp(3.5rem, 8vw, 6rem); line-height: 0.95; margin-bottom: 0; letter-spacing: 2px;">
+                <span style="color: #FFFFFF;">OS MELHORES</span><br>
+                <span style="color: var(--primary-color);">SALGADOS</span><br>
+                <span style="color: #FFFFFF;">ASSADOS</span><br>
+                <span style="color: var(--dark-color);">PARA A SUA LANCHONETE!</span></h1>
             <a href="#contato" class="btn btn-primary btn-large"
-                style="box-shadow: 0 5px 20px rgba(0,0,0,0.5); font-weight: bold;">Solicitar Orçamento Agora</a>
+                style="box-shadow: 0 5px 20px rgba(0,0,0,0.5); font-weight: bold; font-size: 1.2rem; padding: 1rem 2rem;">Solicitar Orçamento Agora</a>
         </div>
     </section>
 
@@ -195,6 +199,17 @@
                     <div class="product-info">
                         <h3 class="product-name">Tortinha de Frango com Bacon</h3>
                         <p class="product-desc">Formato especial com massa quebradiça e recheio generoso de dar água na boca.</p>
+                        <a href="#contato" class="btn btn-green">Fale conosco</a>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/Tortinha Frango com Requeijao.png" alt="Tortinha de Frango com Requeijão" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Tortinha de Frango com Requeijão</h3>
+                        <p class="product-desc">Massa deliciosa e que derrete na boca com o clássico recheio super cremoso.</p>
                         <a href="#contato" class="btn btn-green">Fale conosco</a>
                     </div>
                 </div>
@@ -430,7 +445,7 @@
                     <div class="step-number">2</div>
                     <div class="step-content">
                         <h3 class="step-title">Faça um Orçamento</h3>
-                        <p class="step-desc">Fale com nossa equipe</p>
+                        <p class="step-desc">Fale com nossa equipe: <a href="https://wa.me/5531972599847?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20or%C3%A7amento%20com%20a%20Yupi!" target="_blank" style="color: var(--primary-color); font-weight: bold; text-decoration: none;">(31) 97259 - 9847</a></p>
                     </div>
                 </div>
                 <div class="step-card">
@@ -447,9 +462,8 @@
     <section id="sobre" class="section about-contact-section">
         <div class="container about-contact-container">
             <div class="about-content" style="text-align: left;">
-                <h2 class="about-title" style="justify-content: flex-start;">Nossa História</h2>
-                <p class="about-desc">Tradição e amor em cada receita, levando o melhor sabor para o seu negócio e
-                    encrustando alegria em cada mordida.</p>
+                <h2 class="about-title" style="justify-content: flex-start;">Sobre a Yupi</h2>
+                <p class="about-desc">Produção de salgados que atende o seu negócio!<br><br>Qualidade e padrão em cada pedido.<br><br>Na Yupi, unimos o cuidado da produção semiartesanal à eficiência de uma estrutura industrial para entregar salgados saborosos, padronizados e de alta qualidade, com a regularidade que o seu negócio precisa.<br><br>Atendemos lanchonetes, padarias, cozinhas industriais, escolas, empresas e distribuidores.<br><br>Yupi. Qualidade que seu cliente reconhece. Padrão em que você pode confiar!</p>
 
                 <div id="contato" class="contact-form-wrapper">
                     <h3 class="form-title">Peça seu Orçamento</h3>
@@ -490,7 +504,7 @@
             <div class="footer-social">
                 <a href="https://www.instagram.com/yupindustria/" target="_blank" rel="noopener noreferrer"
                     class="social-icon"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#" class="social-icon"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://wa.me/5531972599847?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20or%C3%A7amento%20com%20a%20Yupi!" target="_blank" class="social-icon"><i class="fa-brands fa-whatsapp"></i></a>
             </div>
 
             <div class="footer-info">
@@ -515,7 +529,7 @@
     </footer>
 
     <!-- Botão WhatsApp Flutuante -->
-    <a href="https://wa.me/5500000000000" target="_blank" rel="noopener noreferrer" class="whatsapp-float">
+    <a href="https://wa.me/5531972599847?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20or%C3%A7amento%20com%20a%20Yupi!" target="_blank" rel="noopener noreferrer" class="whatsapp-float">
         <i class="fa-brands fa-whatsapp"></i>
     </a>
 
